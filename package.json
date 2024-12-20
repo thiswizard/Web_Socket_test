@@ -1,0 +1,21 @@
+{
+  "name": "nbc5_websocket_game",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "nodemon": "^3.1.0"
+  }
+}
